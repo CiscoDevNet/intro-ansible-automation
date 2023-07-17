@@ -1,0 +1,17 @@
+---
+
+- hosts: all
+  connection: network_cli
+  gather_facts: no
+
+  tasks:
+      - name: Checking connectivity
+        ignore_errors: True
+        ios_command:
+          commands:
+            - show ip route
+        register: ios_output
+
+      - name: Show output
+        debug: 
+          msg: "{{ ios_output.stdout_lines }}"

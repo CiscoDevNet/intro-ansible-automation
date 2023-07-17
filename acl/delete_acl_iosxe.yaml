@@ -1,0 +1,12 @@
+---
+- name: Define Paramenters
+  hosts: iosxe_devices
+  gather_facts: no
+  connection: network_cli
+  tasks:
+    - name: Delete 'my_acl' ACL
+      ios_config:
+        lines:
+          - no ip access-list extended my_acl
+        parents: ip access-list extended my_acl
+        match: exact
