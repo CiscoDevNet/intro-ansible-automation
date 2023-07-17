@@ -14,18 +14,18 @@
 
 - [Docs.Ansible.com](https://docs.ansible.com)
 
-[Ansible Installation Docs](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+- [Ansible Installation Docs](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 
-[Ansible Configuration](https://docs.ansible.com/ansible/latest/reference_appendices/config.html)
+- [Ansible Configuration](https://docs.ansible.com/ansible/latest/reference_appendices/config.html)
 
-[DevNet Sandboxes](https://devnetsandbox.cisco.com)
+- [DevNet Sandboxes](https://devnetsandbox.cisco.com)
 
-[Ansible-Projects](https://github.com/muhammad-rafi/Ansible-Projects/) by Muhammad Rafi
+- [Ansible-Projects](https://github.com/muhammad-rafi/Ansible-Projects/) by Muhammad Rafi
 
-[DevNet Learning Labs](https://developer.cisco.com/learning/)
+- [DevNet Learning Labs](https://developer.cisco.com/learning/)
 
-[Ansible and Model-Driven Telemetry Workshop](https://developer.cisco.com/learning/tracks/ansible-mdt-dnac/)
+- [Ansible and Model-Driven Telemetry Workshop](https://developer.cisco.com/learning/tracks/ansible-mdt-dnac/)
 
-[Cisco Code Exchange](https://developer.cisco.com/codeexchange)
+- [Cisco Code Exchange](https://developer.cisco.com/codeexchange)
 
-[DevOps forum in the Developer Hub on the Cisco Community](https://community.cisco.com/t5/devops/gh-p/DevOps_GH)
+- [DevOps forum in the Developer Hub on the Cisco Community](https://community.cisco.com/t5/devops/gh-p/DevOps_GH)
