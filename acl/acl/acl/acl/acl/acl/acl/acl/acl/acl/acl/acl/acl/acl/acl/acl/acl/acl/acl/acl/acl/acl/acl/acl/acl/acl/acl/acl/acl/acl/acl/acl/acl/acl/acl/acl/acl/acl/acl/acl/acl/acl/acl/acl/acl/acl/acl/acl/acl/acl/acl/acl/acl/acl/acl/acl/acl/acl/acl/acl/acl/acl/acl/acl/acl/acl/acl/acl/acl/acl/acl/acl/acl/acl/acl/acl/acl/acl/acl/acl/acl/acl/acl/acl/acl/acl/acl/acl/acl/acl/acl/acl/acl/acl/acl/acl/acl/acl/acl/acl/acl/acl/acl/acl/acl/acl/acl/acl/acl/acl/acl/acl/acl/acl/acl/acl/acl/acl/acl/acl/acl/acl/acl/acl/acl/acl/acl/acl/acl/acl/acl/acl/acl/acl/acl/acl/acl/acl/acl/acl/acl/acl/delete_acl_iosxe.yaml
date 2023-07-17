@@ -1,0 +1,12 @@
+---
+- name: Define Paramenters
+  hosts: iosxe_devices
+  gather_facts: no
+  connection: network_cli
+  tasks:
+    - name: Delete test ACL
+      ios_config:
+        lines:
+          - no ip access-list extended test
+        parents: ip access-list extended test
+        match: exact

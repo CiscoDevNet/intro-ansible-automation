@@ -1,0 +1,22 @@
+---
+
+- hosts: all
+  connection: network_cli
+  gather_facts: no
+
+  tasks:
+      - name: Checking connectivity
+        ignore_errors: True
+        ios_command:
+          commands:
+            - show ip route
+        register: ios_output
+
+      - name: Verification of output
+        debug: 
+          msg: "{{ 'Failed with message: ' ~ ios_output.msg if ios_output.failed else 'Success' }}"
+
+      - local_action: 
+          module: copy
+          content: "{{ inventory_hostname, 'Failed with message: ' ~ ios_output.msg if ios_output.failed else 'Success'  ~ ios_output.stdout_lines }}"
+          dest: "./{{ inventory_hostname }}.txt"

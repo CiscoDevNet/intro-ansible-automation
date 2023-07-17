@@ -1,0 +1,15 @@
+[iosxe]
+sandbox-iosxe-latest-1.cisco.com
+
+[iosxr]
+sandbox-iosxr-1.cisco.com
+
+[iosxe:vars]
+ansible_network_os=ios
+ansible_user='admin'
+ansible_ssh_pass='C1sco12345' 
+
+[iosxr:vars]
+ansible_network_os=iosxr
+ansible_user='admin'
+ansible_ssh_pass='C1sco12345' 

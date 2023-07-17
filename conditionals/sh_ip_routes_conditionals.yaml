@@ -1,0 +1,28 @@
+---
+
+- hosts: all
+  connection: network_cli
+  gather_facts: no
+
+  tasks:
+      - name: Checking connectivity
+        ignore_errors: True
+        ios_command:
+          commands:
+            - show ip route
+        register: ios_output
+
+      # - name: Verification of output (failed)
+      #   debug: 
+      #     msg: "{{ 'Failed with message: ' ~ ios_output.msg }}"
+      #   when: ios_output.failed
+
+      # - name: Verification of output (success)
+      #   debug: 
+      #     msg: "{{ 'Success' }}"
+      #   when: ios_output.failed == False
+
+
+      - name: Verification of output
+        debug: 
+          msg: "{{ 'Failed with message: ' ~ ios_output.msg if ios_output.failed else 'Success' }}"

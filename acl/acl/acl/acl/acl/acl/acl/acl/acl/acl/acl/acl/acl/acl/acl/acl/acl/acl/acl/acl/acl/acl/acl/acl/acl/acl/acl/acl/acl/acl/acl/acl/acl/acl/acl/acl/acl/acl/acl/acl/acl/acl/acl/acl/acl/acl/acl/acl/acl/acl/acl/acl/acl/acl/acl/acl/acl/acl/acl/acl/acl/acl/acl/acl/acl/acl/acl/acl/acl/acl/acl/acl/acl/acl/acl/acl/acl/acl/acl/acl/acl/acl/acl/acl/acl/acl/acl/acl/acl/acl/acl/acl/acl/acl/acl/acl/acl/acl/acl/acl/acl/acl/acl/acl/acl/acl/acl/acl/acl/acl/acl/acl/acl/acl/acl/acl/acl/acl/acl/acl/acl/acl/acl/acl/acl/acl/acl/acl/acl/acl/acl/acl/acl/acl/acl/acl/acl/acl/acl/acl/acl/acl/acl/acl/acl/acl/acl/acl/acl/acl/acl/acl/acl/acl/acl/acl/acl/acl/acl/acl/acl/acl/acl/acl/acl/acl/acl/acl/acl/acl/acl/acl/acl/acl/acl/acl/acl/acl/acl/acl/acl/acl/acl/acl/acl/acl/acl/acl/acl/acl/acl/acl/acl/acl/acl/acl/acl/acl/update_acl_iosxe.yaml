@@ -1,0 +1,13 @@
+---
+- name: Define Paramenters
+  hosts: iosxe_devices
+  gather_facts: no
+  connection: network_cli
+  tasks:
+    - name: Edit test ACL | add seq 40 & remove seq 30
+      ios_config:
+        lines:
+          - no 30
+          - 40 permit ip host 10.10.20.52 any log
+        parents: ip access-list extended test
+        match: exact
