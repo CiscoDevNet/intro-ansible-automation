@@ -2,9 +2,8 @@
 
 ## This repo serves as a repository of code to use when following the 'Intro to Ansible for Automation' video in the DevOps Shop series.
 
-<img src="https://github.com/xanderstevenson/intro-ansible-automation/assets/27918923/6fc0d9df-d061-40f0-b625-3cad3c343fdc" width="200" />
+<img src="https://github.com/xanderstevenson/intro-ansible-automation/assets/27918923/6fc0d9df-d061-40f0-b625-3cad3c343fdc" width="400" margin="0px auto"/>
 
-![image](https://github.com/xanderstevenson/intro-ansible-automation/assets/27918923/da7eb5b1-2871-4914-baf5-d8d5f7cc37d2)
 
 ### Links mentioned in the Intro to Ansible for Automation' video (in the order that they appear)
 
