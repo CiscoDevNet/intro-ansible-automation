@@ -6,6 +6,16 @@
   <img src="https://github.com/xanderstevenson/intro-ansible-automation/assets/27918923/6fc0d9df-d061-40f0-b625-3cad3c343fdc" width="400"/>
 </p>
 
+Everything you need to follow along with the video is included here: config file, hosts inventory files, playbooks, and variables. 
+
+Two Always-On Cisco DevNet sandboxes are used:
+
+[IOS XR Programmabilty - Always On](https://devnetsandbox.cisco.com/RM/Diagram/Index/e83cfd31-ade3-4e15-91d6-3118b867a0dd?diagramType=Topology)
+
+
+
+
+
 ### Links mentioned in the Intro to Ansible for Automation' video (in the order that they appear):
 
 - [Tools Gold: Sifting Through the Pool of DevOps Tools](https://youtu.be/8N69jEH2P9o)
