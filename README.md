@@ -10,10 +10,8 @@ Everything you need to follow along with the video is included here: config file
 
 Two Always-On Cisco DevNet sandboxes are used:
 
-[IOS XR Programmabilty - Always On](https://devnetsandbox.cisco.com/RM/Diagram/Index/e83cfd31-ade3-4e15-91d6-3118b867a0dd?diagramType=Topology)
-
-
-
+- [IOS XR Programmabilty - Always On](https://devnetsandbox.cisco.com/RM/Diagram/Index/e83cfd31-ade3-4e15-91d6-3118b867a0dd?diagramType=Topology)
+- [IOS XE on Catalyst Latest Code Always On](https://devnetsandbox.cisco.com/RM/Diagram/Index/7b4d4209-a17c-4bc3-9b38-f15184e53a94?diagramType=Topology)
 
 
 ### Links mentioned in the Intro to Ansible for Automation' video (in the order that they appear):
