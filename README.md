@@ -8,11 +8,11 @@
 
 ### Links mentioned in the Intro to Ansible for Automation' video (in the order that they appear)
 
-[Tools Gold: Sifting Through the Pool of DevOps Tools](https://youtu.be/8N69jEH2P9o)
+- [Tools Gold: Sifting Through the Pool of DevOps Tools](https://youtu.be/8N69jEH2P9o)
 
-[Ansible.com](https://ansible.com)
+- [Ansible.com](https://ansible.com)
 
-[Docs.Ansible.com](https://docs.ansible.com)
+- [Docs.Ansible.com](https://docs.ansible.com)
 
 [Ansible Installation Docs](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 
